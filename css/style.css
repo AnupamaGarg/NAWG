@@ -1,0 +1,63 @@
+nav a:hover {
+    color: white;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.title {
+float: left;
+font-weight: bold;
+border: lightblue;
+font-size: 2em;
+color: darkblue
+}
+
+li a {
+    float: right;
+       display: block;
+       padding: 8px;
+       color: red;
+       font-weight: bold;
+    }
+
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+
+  }
+
+  /* body::after {
+    content: "";
+    background: url(../images/medicalBuilding.jpg)
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  } */
+.header{
+    background-image: url(../images/medicalBuilding.jpg);
+}
