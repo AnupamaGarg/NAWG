@@ -8,19 +8,21 @@ nav a:hover {
     overflow: hidden;
 }
 .title {
-float: left;
+float: left-corner;
 font-weight: bold;
 border: lightblue;
-font-size: 2em;
-color: darkblue
+font-size: 3em;
+color:rgba(255, 0, 13, 0.651)
 }
 
 li a {
     float: right;
        display: block;
        padding: 8px;
-       color: red;
+       margin: .5em
+       color: blue;
        font-weight: bold;
+       font-size: 1.5em
     }
 
 
@@ -60,4 +62,11 @@ body {
   } */
 .header{
     background-image: url(../images/medicalBuilding.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+    /* display: block;
+    position: relative; */
+    padding: 5em;
+
 }
