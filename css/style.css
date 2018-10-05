@@ -12,17 +12,17 @@ float: left-corner;
 font-weight: bold;
 border: lightblue;
 font-size: 3em;
-color:rgba(255, 0, 13, 0.651)
+color: blue;
 }
 
 li a {
     float: right;
        display: block;
        padding: 8px;
-       margin: .5em
-       color: blue;
+       margin: .5em;
+       color: rgba(0, 255, 234, 0.932);
        font-weight: bold;
-       font-size: 1.5em
+       font-size: 1.5em;
     }
 
 
